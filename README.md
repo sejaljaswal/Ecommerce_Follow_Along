@@ -18,111 +18,86 @@ Deploy: Backend using Heroku, Render, or AWS. Frontend using Netlify or Vercel. 
 
 
 
+Milestone 2 Progress 🚀
+✅ Project Setup
+Structured the project with separate frontend and backend directories.
+Initialized a React app for the frontend and a Node.js server for the backend.
+✅ Tooling & Configuration
+Configured Tailwind CSS for modern and responsive styling.
+Added useful extensions to improve development efficiency.
+✅ Login Page Implementation
+Designed and developed a fully functional Login Page.
+Ensured proper UI styling using Tailwind CSS.
+Set up basic authentication logic to handle user login.
+This milestone laid the groundwork for the E-Commerce application by setting up the project structure and implementing the first user-facing feature.
 
-# Milestone 2: Project Structure & Login Page 🚀  
+Milestone 3 Progress 🚀
+✅ Backend Folder Structure
+Organized backend code with separate folders for routes, controllers, models, and middleware.
+Introduced utils and middlewares directories for better modularity.
+✅ Server Setup
+Created a backend server using Node.js and Express.
+Configured the server to listen on a designated port.
+✅ Database Connection
+Integrated MongoDB to store and manage data.
+Verified successful connection between the server and MongoDB.
+✅ Error Handling
+Implemented a global error handler for better debugging.
+Provided meaningful error messages for invalid requests and failed operations.
+✅ README Update
+Documented Milestone 3 progress in this README file.
+This milestone focused on setting up a solid backend infrastructure to support the application’s growth and data management.
 
-## Overview  
-In Milestone 2, we focused on structuring the project, setting up both the frontend and backend, and developing the Login Page for the e-commerce application.  
+Milestone 4: Creating User Model and Controller 🚀
+In Milestone 4, we expanded our backend by introducing User Models, Controllers, and File Uploads.
 
-## Key Accomplishments  
+✅ User Model Implementation
+Defined a User Schema using Mongoose to store user details (name, email, password, etc.).
+Implemented necessary validations to ensure data integrity.
+Integrated bcrypt for secure password hashing.
+✅ User Controller Setup
+Developed controller functions to:
+Create new users
+Retrieve user details
+Update user information
+Delete users if necessary
+Handled error responses for invalid or duplicate user entries.
+✅ Multer File Upload Integration
+Configured Multer to handle file uploads (e.g., profile pictures).
+Implemented logic to store and retrieve uploaded images.
+Ensured file validation to prevent invalid file types from being uploaded.
+✅ Project Submission
+Pushed the updated code to GitHub.
+Updated the README with Milestone 4 details.
+This milestone strengthened the user management aspect of our application, making it more robust and scalable for future enhancements.
 
-### 📁 Project Structure  
-- Organized the project with separate `frontend/` and `backend/` directories.  
+Milestone 5: Creating the Signup Page 🚀
+In Milestone 5, we focused on building the frontend Sign-Up page and implementing client-side form validation.
 
-### 🌐 Frontend Setup  
-- Initialized a React app for building the user interface.  
-- Configured **Tailwind CSS** for utility-based styling.  
-- Implemented a fully functional and styled **Login Page**.  
+✅ Sign-Up Page UI Development
+Created the user interface for the Sign-Up page using HTML and CSS (likely with Tailwind CSS).
+Included fields for name, email, and password.
+Designed the page to be user-friendly and visually appealing.
+✅ Form Validation
+Implemented client-side form validation to ensure data quality.
+Validated email format, password strength (e.g., minimum length), and other necessary fields.
+Provided user-friendly error messages for invalid inputs.
+✅ README Update
+Documented Milestone 5 progress in this README file.
+This milestone focused on creating the user registration interface and ensuring that the data entered by the user is valid before being sent to the backend. This improves user experience and reduces the load on the server.
 
-### 🛠️ Backend Setup  
-- Set up a basic **Node.js + Express** server to prepare for future API integration.  
+Milestone 6: Backend Signup Endpoint and Password Encryption 🚀
+In Milestone 6, we implemented the backend endpoint to handle user signup and securely store user data, including encrypting passwords.
 
-### 🎯 Learning Outcomes  
-By completing this milestone, we learned:  
-- How to structure a full-stack project.  
-- Setting up a React application with Tailwind CSS.  
-- Configuring a Node.js backend.  
-- Creating a login page with basic styling and functionality.  
-
-## ✅ Submission Details  
-- Code is pushed to the **GitHub repository** created in Milestone 1.  
-- The repository includes:  
-  - **Proper folder structure** (frontend & backend).  
-  - **Functional Login Page**.  
-  - **Updated README** summarizing the progress.  
-
-
-
-
-
-
-
-# Milestone 4 - User Model, Controllers & File Uploads
-
-## Introduction 🚀
-Welcome to Milestone 4! In this milestone, we will focus on enhancing our backend by implementing a User Model, setting up controllers to handle user-related data, and enabling file uploads using Multer. By the end of this milestone, you will have a structured way to store user data, manage interactions, and support file uploads.
-
----
-
-## Learning Goals 🎯
-By the end of this milestone, you will:
-- **Create a User Model**: Define the structure of user data in the database.
-- **Create a User Controller**: Manage user-related operations such as adding and retrieving user information.
-- **Enable and Configure Multer**: Implement file uploads to store user profile pictures or other files.
-- **Update the README file**: Document your progress effectively.
-
----
-
-## Key Concepts 📌
-### 1. What’s a Model?
-A **model** is like a blueprint that defines how data is stored in the database. In MongoDB, we use **Schemas** to structure our data.
-
-- Example: A **User Model** may include fields like `name`, `email`, and `password`.
-- This ensures consistency in how data is saved and retrieved.
-
-### 2. What’s a Controller?
-A **controller** is responsible for handling user interactions with the application. It acts as an intermediary between the user and the database.
-
-- Example: When a user signs up, the controller handles the request, processes the data, and saves it to the database.
-- Think of it as a **manager** that directs requests and responses efficiently.
-
-### 3. File Uploads with Multer
-Multer is a middleware for handling file uploads in Node.js applications.
-
-- It enables users to upload profile pictures or other documents.
-- It stores files in a designated folder and provides access to them when needed.
-
----
-
-## Steps to Complete Milestone 4 📝
-This milestone includes the following steps:
-
-1. **Create the User Model**
-   - Define a schema for user data using Mongoose.
-   - Ensure fields like `name`, `email`, `password`, and `profilePicture` are included.
-
-2. **Create the User Controller**
-   - Implement functions to handle user-related actions such as registering a user and retrieving user data.
-
-3. **Set Up Multer for File Uploads**
-   - Configure Multer to allow users to upload files.
-   - Store uploaded files in a designated folder.
-   
-4. **Update the README File**
-   - Document the new changes made in this milestone.
-   - Provide clear instructions on how to use the new features.
-
----
-
-## Submission Guidelines 📥
-To complete this milestone, follow these submission steps:
-
-✅ Push your code to the same GitHub repository used for previous milestones.
-✅ Ensure your repository is **publicly accessible**.
-✅ Update your **README file** with a section summarizing Milestone 4.
-✅ Submit your repository link as per the assignment requirements.
-
----
-
-
-
+✅ Signup Endpoint Implementation
+Created a new route and controller function to handle POST requests to the signup endpoint.
+Received user data from the frontend signup form.
+✅ Password Encryption
+Used bcrypt to hash the user's password before storing it in the database.
+Ensured that passwords are never stored in plain text.
+✅ User Data Storage
+Stored the complete user data (name, email, hashed password, etc.) in the MongoDB database.
+Implemented error handling for duplicate entries and other potential issues.
+✅ README Update
+Documented Milestone 6 progress in this README file.
+This milestone focused on securely handling user registration on the backend, including the crucial step of password encryption. This is essential for protecting user data and maintaining security best practices.
