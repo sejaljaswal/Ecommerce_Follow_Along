@@ -190,9 +190,6 @@ This milestone involves creating a login endpoint that allows users to authentic
 }
 ```
 
-## License
-This project is licensed under the MIT License.
-
 ---
 
 
