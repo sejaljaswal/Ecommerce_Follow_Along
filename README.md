@@ -1,32 +1,46 @@
-# Milestone 2: Project Structure & Login Page 🚀  
+# Follow-Along E-Commerce Website
 
-## Overview  
-In Milestone 2, we focused on structuring the project, setting up both the frontend and backend, and developing the Login Page for the e-commerce application.  
+## Key Features
 
-## Key Accomplishments  
+### 1. REST API
+- Implements RESTful principles for efficient client-server communication.
+- Endpoints for managing products, users, and orders.
 
-### 📁 Project Structure  
-- Organized the project with separate `frontend/` and `backend/` directories.  
+### 2. MERN Stack
+- Built with MongoDB, Express.js, React, and Node.js.
+- Ensures scalability, performance, and a seamless full-stack experience.
 
-### 🌐 Frontend Setup  
-- Initialized a React app for building the user interface.  
-- Configured **Tailwind CSS** for utility-based styling.  
-- Implemented a fully functional and styled **Login Page**.  
+### 3. Order Handling
+- Streamlined order processing from cart to checkout.
+- Real-time updates for order status and inventory management.
 
-### 🛠️ Backend Setup  
-- Set up a basic **Node.js + Express** server to prepare for future API integration.  
+### 4. Product Listing & Management
+- Features for adding, editing, and removing products.
+- Search and filter functionality for an optimized user experience.
 
-### 🎯 Learning Outcomes  
-By completing this milestone, we learned:  
-- How to structure a full-stack project.  
-- Setting up a React application with Tailwind CSS.  
-- Configuring a Node.js backend.  
-- Creating a login page with basic styling and functionality.  
+### 5. User Authentication
+- Secure authentication with JWT.
+- Role-based access control for users and admins.
 
-## ✅ Submission Details  
-- Code is pushed to the **GitHub repository** created in Milestone 1.  
-- The repository includes:  
-  - **Proper folder structure** (frontend & backend).  
-  - **Functional Login Page**.  
-  - **Updated README** summarizing the progress.  
+---
 
+## Project Milestones
+
+### **Milestone 2: Project Setup** 🚀
+
+✅ **Project Initialization**
+- Structured the project with separate frontend and backend directories.
+- Initialized a React app for the frontend and a Node.js server for the backend.
+
+✅ **Tooling & Configuration**
+- Configured Tailwind CSS for modern and responsive styling.
+- Added useful extensions to improve development efficiency.
+
+✅ **Login Page Implementation**
+- Designed and developed a fully functional Login Page.
+- Ensured proper UI styling using Tailwind CSS.
+- Set up basic authentication logic to handle user login.
+
+📌 *This milestone laid the groundwork for the E-Commerce application by setting up the project structure and implementing the first user-facing feature.*
+
+---
