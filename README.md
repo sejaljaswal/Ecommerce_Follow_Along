@@ -193,7 +193,8 @@ This milestone involves creating a login endpoint that allows users to authentic
 ---
 
 
-Milestone 8: Product Card Component and Homepage Layout 🚀
+###Milestone 8: 
+**Product Card Component and Homepage Layout 🚀
 
 ✅ Frontend Product Card Component
 Designed and implemented a reusable Product Card component.
