@@ -1,0 +1,30 @@
+
+
+
+
+
+
+{
+
+
+
+
+  "name": "ecommerc",
+  "version": "1.0.0",
+  "description": "ecommerce website",
+  "main": "backend/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+
+  },
+  "author": "\"sejal\"",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sejaljaswal/Ecommerce_Follow_Along.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sejaljaswal/Ecommerce_Follow_Along/issues"
+  },
+  "homepage": "https://github.com/sejaljaswal/Ecommerce_Follow_Along#readme"
+}
