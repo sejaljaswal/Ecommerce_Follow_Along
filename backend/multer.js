@@ -1,30 +1,52 @@
-const multer = require("multer");
-const path = require("path");
+// backend/multer.js
 
-// Configure storage settings
+const multer = require('multer');
+const path = require('path');
+const fs = require('fs');
+
+// Define directories
+const uploadsDir = path.join(__dirname, 'uploads');
+const productsDir = path.join(__dirname, 'products');
+
+// Create directories if they don't exist
+[uploadsDir, productsDir].forEach(dir => {
+  if (!fs.existsSync(dir)) {
+    fs.mkdirSync(dir, { recursive: true });
+    console.log(`✅ Created directory: ${dir}`);
+  }
+});
+
+// Multer storage configuration for general uploads
 const storage = multer.diskStorage({
-    destination: function (req, file, cb) {
-        cb(null, path.join(__dirname, "uploads/")); // Save files to 'backend/uploads'
-    },
-    filename: function (req, file, cb) {
-        cb(null, file.fieldname + "-" + Date.now() + path.extname(file.originalname)); // Rename file
-    }
+  destination: function (req, file, cb) {
+    cb(null, uploadsDir);
+  },
+  filename: function (req, file, cb) {
+    const uniqueSuffix = Date.now() + '-' + Math.round(Math.random() * 1e9);
+    const ext = path.extname(file.originalname);
+    const filename = path.basename(file.originalname, ext);
+    cb(null, `${filename}-${uniqueSuffix}${ext}`);
+  },
 });
 
-// File filter to accept only images
-const fileFilter = (req, file, cb) => {
-    if (file.mimetype.startsWith("image/")) {
-        cb(null, true);
-    } else {
-        cb(new Error("Only image files are allowed"), false);
-    }
+// Multer storage configuration for product images
+const pstorage = multer.diskStorage({
+  destination: function (req, file, cb) {
+    cb(null, productsDir);
+  },
+  filename: function (req, file, cb) {
+    const uniqueSuffix = Date.now() + '-' + Math.round(Math.random() * 1e9);
+    const ext = path.extname(file.originalname);
+    const filename = path.basename(file.originalname, ext);
+    cb(null, `${filename}-${uniqueSuffix}${ext}`);
+  },
+});
+
+// Initialize upload handlers
+const upload = multer({ storage: storage });
+const pupload = multer({ storage: pstorage });
+
+module.exports = {
+  upload,
+  pupload,
 };
-
-// Initialize multer upload instance
-const upload = multer({
-    storage: storage,
-    fileFilter: fileFilter,
-    limits: { fileSize: 1024 * 1024 * 5 }, // 5MB limit
-});
-
-module.exports = { upload };
