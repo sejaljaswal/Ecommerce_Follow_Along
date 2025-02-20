@@ -199,18 +199,21 @@ This milestone involves creating a login endpoint that allows users to authentic
 ✅ Frontend Product Card Component
 Designed and implemented a reusable Product Card component.
 Utilized props to dynamically render product details like name, image, and price.
+
 ✅ Homepage Layout for Products
 Created a responsive homepage to display multiple Product Cards.
 Used Grid/Flexbox for optimal layout and user experience.
 
 
-Milestone 9: Product Input Form 🚀
+# Milestone 9: Product Input Form 🚀
 ✅ Product Form Implementation
 Designed a form for adding product details such as name, price, and description.
 Implemented an option for uploading multiple product images.
+
 ✅ Database Integration
 Structured the form to send product data to the backend for storage in MongoDB.
 Ensured proper validation and error handling.
+
 ✅ README Update
 Documented Milestone 9 progress in this README file.
 This milestone focused on enabling product input, which is essential for expanding the e-commerce platform by allowing users to add new products dynamically.
@@ -218,19 +221,23 @@ This milestone focused on enabling product input, which is essential for expandi
 
 
 
-Milestone 10: Product Schema and API Endpoint 🚀
+# Milestone 10: Product Schema and API Endpoint 🚀
+
 ✅ Product Schema Implementation
 Defined a Product Schema in Mongoose.
 Implemented validation for fields like name, price, and image URL.
+
 ✅ API Endpoint for Adding Products
 Created a POST endpoint to store product details in MongoDB.
 Ensured proper validation before saving the data.
 
 
-Milestone 11: Dynamic Product Display 🚀
+# Milestone 11: Dynamic Product Display 🚀
+
 ✅ Fetching Product Data
 Created an endpoint to retrieve all stored products from MongoDB.
 Implemented API call logic in the frontend to fetch data dynamically.
+
 ✅ Displaying Products
 Passed fetched product data to the Product Card component.
 Rendered product information dynamically on the homepage.
@@ -238,13 +245,16 @@ Rendered product information dynamically on the homepage.
 
 
 
-Milestone 12: My Products Page 🚀
+# Milestone 12: My Products Page 🚀
+
 ✅ Filtering Products by User Email
 Created a backend endpoint to retrieve products associated with the logged-in user's email.
 Queried the MongoDB database to fetch only those products matching the user's email.
+
 ✅ Fetching Data on the Frontend
 Implemented an API call to request user-specific product data from the backend.
 Stored the retrieved data in the application state for dynamic rendering.
+
 ✅ Displaying User's Products
 Passed the fetched data to the Product Card component.
 Rendered the products dynamically on the "My Products" page.
