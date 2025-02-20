@@ -193,7 +193,7 @@ This milestone involves creating a login endpoint that allows users to authentic
 ---
 
 
-### Milestone 8: 
+# Milestone 8: 
 **Product Card Component and Homepage Layout 🚀
 
 ✅ Frontend Product Card Component
@@ -204,7 +204,7 @@ Created a responsive homepage to display multiple Product Cards.
 Used Grid/Flexbox for optimal layout and user experience.
 
 
-Milestone 9: Product Input Form 🚀
+# Milestone 9: Product Input Form 🚀
 ✅ Product Form Implementation
 Designed a form for adding product details such as name, price, and description.
 Implemented an option for uploading multiple product images.
@@ -218,7 +218,7 @@ This milestone focused on enabling product input, which is essential for expandi
 
 
 
-Milestone 10: Product Schema and API Endpoint 🚀
+# Milestone 10: Product Schema and API Endpoint 🚀
 ✅ Product Schema Implementation
 Defined a Product Schema in Mongoose.
 Implemented validation for fields like name, price, and image URL.
@@ -227,7 +227,7 @@ Created a POST endpoint to store product details in MongoDB.
 Ensured proper validation before saving the data.
 
 
-Milestone 11: Dynamic Product Display 🚀
+# Milestone 11: Dynamic Product Display 🚀
 ✅ Fetching Product Data
 Created an endpoint to retrieve all stored products from MongoDB.
 Implemented API call logic in the frontend to fetch data dynamically.
