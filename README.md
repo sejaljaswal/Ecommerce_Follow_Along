@@ -272,3 +272,14 @@ When clicked, it fetches the product details and auto-fills the form.
 Allowed users to modify product details directly within the form.
 Implemented a Save Changes feature to update product details in the database.
 
+
+# Milestone 14 Progress Summary 🚀
+In this milestone, I implemented the delete functionality for product data. This involved:
+
+✅ Backend: Added a DELETE API endpoint in Express.js to remove a product from MongoDB using its ID.
+✅ Frontend: Integrated a delete button on the product card that triggers an API request to delete the product.
+✅ UI Update: Ensured the product list updates dynamically after deletion.
+✅ Code Push: Committed and pushed the changes to the GitHub repository.
+
+This milestone helped in understanding how to perform delete operations in a MERN stack application.
+
