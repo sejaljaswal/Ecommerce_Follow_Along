@@ -283,3 +283,18 @@ In this milestone, I implemented the delete functionality for product data. This
 
 This milestone helped in understanding how to perform delete operations in a MERN stack application.
 
+
+# Milestone 15 Progress Summary 🚀
+
+In this milestone, we created and integrated a responsive Navbar to enhance navigation across the application.
+
+✅ Tasks Completed:
+Built a Nav component with links to Home, My Products, Add Product, and Cart.
+Ensured full responsiveness for smooth navigation on all screen sizes.
+Added the Navbar to all pages for a consistent user experience.
+🔍 Next Steps:
+Improve UI design for better accessibility.
+Test responsiveness across different devices.
+Optimize navigation for seamless performance.
+This milestone helped in understanding Navbar creation and multi-page navigation in web applications. 🚀
+
