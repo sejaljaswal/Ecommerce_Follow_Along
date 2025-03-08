@@ -292,7 +292,23 @@ In this milestone, we created and integrated a responsive Navbar to enhance navi
 Built a Nav component with links to Home, My Products, Add Product, and Cart.
 Ensured full responsiveness for smooth navigation on all screen sizes.
 Added the Navbar to all pages for a consistent user experience.
-🔍 Next Steps:
+
+
+#  **Milestone 16 Progress Summary 🚀**  
+
+In this milestone, we **created a Product Info page** to display detailed product data and allow users to select quantity and add items to the cart.  
+
+#### ✅ **Tasks Completed:**  
+- Developed a **dedicated Product Info page** for individual product details.  
+- Implemented a **quantity selector** to allow users to choose the desired amount.  
+- Added an **"Add to Cart"** button for seamless shopping experience.  
+
+#### 🔍 **Next Steps:**  
+- Improve UI for better product presentation.  
+- Ensure smooth cart functionality.  
+- Test responsiveness on different devices.  
+
+This milestone enhanced our understanding of **dynamic product pages and user interactions** in e-commerce applications. 🚀
 Improve UI design for better accessibility.
 Test responsiveness across different devices.
 Optimize navigation for seamless performance.

@@ -1,4 +1,4 @@
-import Nav from '../components/ nav';
+import Nav from '../components/nav';
 
 const Cart = () => {
     return (
@@ -10,5 +10,4 @@ const Cart = () => {
         </>
     );
 }
-
 export default Cart;
