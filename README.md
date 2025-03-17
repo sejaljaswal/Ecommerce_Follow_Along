@@ -314,6 +314,7 @@ Test responsiveness across different devices.
 Optimize navigation for seamless performance.
 This milestone helped in understanding Navbar creation and multi-page navigation in web applications. 🚀
 
+ Milestone-17
 
 # 📌 Milestone 17: Implementing Cart Functionality
 
@@ -325,9 +326,6 @@ POST /cart/add → Add products to the cart.
 GET /cart → Retrieve cart items.
 DELETE /cart/remove/:productId → Remove product from cart.
 MongoDB Integration: Persistent cart storage.
-Validation & Error Handling: Prevented duplicate entries, ensured correct data format.
-
-
-
-
-
+Validation & Error Handling: Prevented duplicate entries, ensured correct data format
+=======
+ Milestone-16
