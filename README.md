@@ -338,6 +338,7 @@ Implemented Business Logic: Retrieved cart data from the database for the logged
 Integrated MongoDB: Ensured persistent storage and retrieval of cart items.
 Optimized API Response: Sent structured cart data for frontend display.
 
+Milestoen-19
 # Milestone 19 - Cart Functionality
 
 🚀 What was achieved in this milestone?
@@ -359,5 +360,7 @@ Integrated the UI with the backend API.
 Built an endpoint to modify product quantities in the cart.
 Tested functionality to ensure smooth updates.
 
+=======
+ Milestone-18
 
 
