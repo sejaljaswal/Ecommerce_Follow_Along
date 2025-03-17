@@ -314,3 +314,29 @@ Test responsiveness across different devices.
 Optimize navigation for seamless performance.
 This milestone helped in understanding Navbar creation and multi-page navigation in web applications. 🚀
 
+
+# 📌 Milestone 17: Implementing Cart Functionality
+
+#### ✅ Achievements
+Updated User Schema: Added a cart field to store selected products.
+Created Cart Schema: Structured database model for cart items.
+Developed API Endpoints:
+POST /cart/add → Add products to the cart.
+GET /cart → Retrieve cart items.
+DELETE /cart/remove/:productId → Remove product from cart.
+MongoDB Integration: Persistent cart storage.
+Validation & Error Handling: Prevented duplicate entries, ensured correct data format.
+
+
+
+# 📌 Milestone 18: Fetching Cart Items
+
+#### ✅ Achievements
+Created Backend Endpoint:
+GET /cart/:email → Fetches all products in a user’s cart using their email.
+Implemented Business Logic: Retrieved cart data from the database for the logged-in user.
+Integrated MongoDB: Ensured persistent storage and retrieval of cart items.
+Optimized API Response: Sent structured cart data for frontend display.
+
+
+
