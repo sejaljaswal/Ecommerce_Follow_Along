@@ -383,4 +383,30 @@ Built an endpoint to fetch and send user data.
 Tested functionality to ensure proper data retrieval and display.
 
 
+# Milestone 21 - Address Form Page
+
+🚀 What was achieved in this milestone?
+In Milestone 21, we successfully implemented an address form page to collect user address details. The following tasks were completed:
+
+📋 Address Form UI
+Designed and developed an address input form.
+The form collects the following details:
+Country
+City
+Address Line 1
+Address Line 2
+Zip Code
+Address Type (Home/Work/Others)
+
+🔄 Navigation & State Management
+Created a state to store the address input.
+Implemented navigation from the profile page when clicking on "Add Address".
+
+📌 Steps Followed
+Created a new address form page in the frontend.
+Implemented form validation for required fields.
+Linked the form page to the profile page with a navigation button.
+Tested functionality to ensure smooth data entry.
+
+
 
