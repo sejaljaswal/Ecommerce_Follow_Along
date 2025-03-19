@@ -383,6 +383,7 @@ Built an endpoint to fetch and send user data.
 Tested functionality to ensure proper data retrieval and display.
 
 
+
 # Milestone 21 - Address Form Page
 
 🚀 What was achieved in this milestone?
@@ -407,6 +408,7 @@ Created a new address form page in the frontend.
 Implemented form validation for required fields.
 Linked the form page to the profile page with a navigation button.
 Tested functionality to ensure smooth data entry.
+
 
 
 
