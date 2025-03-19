@@ -361,3 +361,26 @@ Tested functionality to ensure smooth updates.
 
 
 
+# Milestone 20 - Profile Page and Backend Endpoint
+
+🚀 What was achieved in this milestone?
+In Milestone 20, we successfully implemented a user profile page on the frontend and created a backend endpoint to fetch user data. The following tasks were completed:
+
+👤 Profile Page UI
+Designed and developed a profile page to display user information.
+Displayed the profile photo, name, and email in one section.
+Added a separate section to display addresses with an "Add Address" button.
+Implemented logic to show "No address found" if no addresses are available.
+
+🔄 Backend API for User Data
+Created an API endpoint to retrieve user data, including profile photo, name, email, and addresses.
+Implemented functionality to send user data via mail.
+
+📌 Steps Followed
+Created the profile page UI in the frontend.
+Integrated the UI with the backend API.
+Built an endpoint to fetch and send user data.
+Tested functionality to ensure proper data retrieval and display.
+
+
+
