@@ -338,8 +338,6 @@ Implemented Business Logic: Retrieved cart data from the database for the logged
 Integrated MongoDB: Ensured persistent storage and retrieval of cart items.
 Optimized API Response: Sent structured cart data for frontend display.
 
-
-
 # Milestone 19 - Cart Functionality
 
 🚀 What was achieved in this milestone?
@@ -363,7 +361,6 @@ Tested functionality to ensure smooth updates.
 
 
 
-
 # Milestone 20 - Profile Page and Backend Endpoint
 
 🚀 What was achieved in this milestone?
@@ -384,6 +381,68 @@ Created the profile page UI in the frontend.
 Integrated the UI with the backend API.
 Built an endpoint to fetch and send user data.
 Tested functionality to ensure proper data retrieval and display.
+
+
+
+# Milestone 21 - Address Form Page
+
+🚀 What was achieved in this milestone?
+In Milestone 21, we successfully implemented an address form page to collect user address details. The following tasks were completed:
+
+📋 Address Form UI
+Designed and developed an address input form.
+The form collects the following details:
+Country
+City
+Address Line 1
+Address Line 2
+Zip Code
+Address Type (Home/Work/Others)
+
+🔄 Navigation & State Management
+Created a state to store the address input.
+Implemented navigation from the profile page when clicking on "Add Address".
+
+📌 Steps Followed
+Created a new address form page in the frontend.
+Implemented form validation for required fields.
+Linked the form page to the profile page with a navigation button.
+Tested functionality to ensure smooth data entry.
+
+
+# Milestone 22 - Storing User Address in Database
+
+Overview
+In this milestone, we have implemented a backend endpoint that allows users to save their address inside their profile in the database. This functionality is crucial for managing user information in an e-commerce platform.
+
+Learning Goals 🎯
+Create a backend endpoint to store the address inside the user profile in the database.
+Understand how to receive data from the frontend and update the user collection accordingly.
+
+Implementation Steps 📝
+Created an API endpoint to receive address details from the frontend form.
+Updated the User Model to ensure that addresses are stored in an array within the user collection.
+Implemented Database Update Logic to push the new address into the user profile.
+Tested the Endpoint using Postman to ensure successful address storage.
+
+
+
+
+
+ # Milestone 23: Address Selection for Orders 🛒
+✅ Cart Page Enhancement
+
+Added a "Place Order" button inside the cart page.
+Navigated to the "Select Address" page when clicked.
+✅ Address Selection Page
+
+Displayed all available addresses of the user.
+Provided an option to select one address for the order.
+✅ Backend API Implementation
+
+Created an endpoint to fetch and send all saved addresses of the user.
+Ensured authentication and proper error handling.
+
 
 
 
