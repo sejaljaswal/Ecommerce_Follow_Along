@@ -383,6 +383,7 @@ Built an endpoint to fetch and send user data.
 Tested functionality to ensure proper data retrieval and display.
 
 
+
 # Milestone 21 - Address Form Page
 
 🚀 What was achieved in this milestone?
@@ -408,6 +409,7 @@ Implemented form validation for required fields.
 Linked the form page to the profile page with a navigation button.
 Tested functionality to ensure smooth data entry.
 
+
 # Milestone 22 - Storing User Address in Database
 
 Overview
@@ -426,6 +428,7 @@ Tested the Endpoint using Postman to ensure successful address storage.
 
 
 
+
  # Milestone 23: Address Selection for Orders 🛒
 ✅ Cart Page Enhancement
 
@@ -439,6 +442,7 @@ Provided an option to select one address for the order.
 
 Created an endpoint to fetch and send all saved addresses of the user.
 Ensured authentication and proper error handling.
+
 
 
 
