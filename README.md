@@ -383,6 +383,7 @@ Built an endpoint to fetch and send user data.
 Tested functionality to ensure proper data retrieval and display.
 
 
+
 # Milestone 21 - Address Form Page
 
 🚀 What was achieved in this milestone?
@@ -407,6 +408,7 @@ Created a new address form page in the frontend.
 Implemented form validation for required fields.
 Linked the form page to the profile page with a navigation button.
 Tested functionality to ensure smooth data entry.
+
 
 # Milestone 22 - Storing User Address in Database
 
@@ -436,7 +438,6 @@ Navigated to the "Select Address" page when clicked.
 Displayed all available addresses of the user.
 Provided an option to select one address for the order.
 
-✅ Backend API Implementation
 Created an endpoint to fetch and send all saved addresses of the user.
 Ensured authentication and proper error handling.
 
@@ -464,6 +465,7 @@ This repository contains the code for Milestone 24. You can find all the relevan
 - Code has been pushed to the GitHub repository.  
 - The repository is publicly accessible.  
 - This README file summarizes the milestone.  
+
 
 
 
