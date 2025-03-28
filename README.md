@@ -428,7 +428,6 @@ Tested the Endpoint using Postman to ensure successful address storage.
 
 
 
-
  # Milestone 23: Address Selection for Orders 🛒
 ✅ Cart Page Enhancement
 
@@ -438,10 +437,36 @@ Navigated to the "Select Address" page when clicked.
 
 Displayed all available addresses of the user.
 Provided an option to select one address for the order.
-✅ Backend API Implementation
 
 Created an endpoint to fetch and send all saved addresses of the user.
 Ensured authentication and proper error handling.
+
+
+
+
+# Milestone 24 - Implementing Place Order Functionality  
+
+## Overview  
+In this milestone, we have successfully implemented the **Place Order** functionality. This includes:  
+- Displaying all the products in the order.  
+- Showing the selected delivery address.  
+- Calculating and displaying the total cart value.  
+- Adding a "Place Order" button to finalize the purchase.  
+
+## Learning Outcomes  
+- Understanding how to manage and display order details.  
+- Handling user-selected delivery addresses.  
+- Implementing order confirmation logic.  
+
+## Repository Details  
+This repository contains the code for Milestone 24. You can find all the relevant changes in the latest commit.  
+
+## Submission  
+- Code has been pushed to the GitHub repository.  
+- The repository is publicly accessible.  
+- This README file summarizes the milestone.  
+
+
 
 
 
