@@ -408,6 +408,7 @@ Implemented form validation for required fields.
 Linked the form page to the profile page with a navigation button.
 Tested functionality to ensure smooth data entry.
 
+
 # Milestone 22 - Storing User Address in Database
 
 Overview
@@ -436,7 +437,8 @@ Navigated to the "Select Address" page when clicked.
 Displayed all available addresses of the user.
 Provided an option to select one address for the order.
 
-✅ Backend API Implementation
+
+
 Created an endpoint to fetch and send all saved addresses of the user.
 Ensured authentication and proper error handling.
 
@@ -463,6 +465,7 @@ This repository contains the code for Milestone 24. You can find all the relevan
 ## Submission  
 - Code has been pushed to the GitHub repository.  
 - The repository is publicly accessible.  
+
 - This README file summarizes the milestone.
 
 - # Milestone 25: Place Order Endpoint
@@ -503,6 +506,7 @@ Backend: Node.js, Express.js, MongoDB (Mongoose)
 Database: MongoDB
 
 Version Control: Git & GitHub
+
 
 
 
