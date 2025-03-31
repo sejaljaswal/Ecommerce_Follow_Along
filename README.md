@@ -487,6 +487,25 @@ Store Orders in MongoDB
 Save the order details using the existing Order Schema.
 
 
+# 📌 Milestone 26 - Backend Endpoint for Fetching Orders
+🚀 Project Overview
+In this milestone, we have implemented a backend API endpoint that retrieves all orders of a specific user based on their email.
+
+🎯 Learning Outcomes
+✅ Implement an API endpoint to fetch user orders
+✅ Retrieve the user ID from the database using their email
+✅ Fetch all orders associated with the user ID
+✅ Send the orders as a response in JSON format
+
+🛠 Tech Stack
+Backend: Node.js, Express.js, MongoDB (Mongoose)
+
+Database: MongoDB
+
+Version Control: Git & GitHub
+
+
+
 
 
 
