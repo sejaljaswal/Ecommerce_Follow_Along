@@ -463,7 +463,29 @@ This repository contains the code for Milestone 24. You can find all the relevan
 ## Submission  
 - Code has been pushed to the GitHub repository.  
 - The repository is publicly accessible.  
-- This README file summarizes the milestone.  
+- This README file summarizes the milestone.
+
+- # Milestone 25: Place Order Endpoint
+Overview
+In this milestone, we created a backend endpoint to handle the order placement process. This endpoint receives product details, user information, and address details to store the order in MongoDB.
+
+Learning Goals
+Create a backend endpoint for placing an order.
+Retrieve the user _id using their email.
+Store order details in the MongoDB orders collection.
+
+Implementation Steps
+Receive Order Data
+
+The endpoint accepts the user's email, product details, and address.
+Retrieve User ID
+Use the email to find the corresponding _id from the users collection.
+Create Orders
+For each product, generate a separate order while keeping the same address.
+
+Store Orders in MongoDB
+Save the order details using the existing Order Schema.
+
 
 
 
