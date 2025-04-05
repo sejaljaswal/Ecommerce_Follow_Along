@@ -487,6 +487,33 @@ Store Orders in MongoDB
 Save the order details using the existing Order Schema.
 
 
+## Milestone 27: My Orders Page
+
+### 🎯 What was achieved in this milestone:
+
+- Created a **My Orders** page in the frontend to display all user-specific orders.
+- Integrated with the backend using a **GET request** to the `/my-orders` endpoint.
+- Passed the **user's email** as a query parameter to fetch their orders.
+- Displayed order details including product name, price, and order date.
+- Enhanced user experience by adding **My Orders** to the **navigation bar** for easy access.
+- Successfully connected frontend and backend for order retrieval.
+
+### 📂 Files Modified:
+- `src/pages/MyOrders.jsx` — New page to display user orders.
+- `src/components/Navbar.jsx` — Added My Orders link to navigation.
+- `README.md` — Updated with milestone summary.
+
+### 🔗 Live Preview / Demo:
+_If deployed, include a link here (optional)._
+
+### 📌 How to Test:
+1. Login with a registered user account.
+2. Navigate to `My Orders` via the navbar.
+3. View your orders retrieved from the backend.
+
+
+
+
 
 
 
