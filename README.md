@@ -436,7 +436,7 @@ Navigated to the "Select Address" page when clicked.
 Displayed all available addresses of the user.
 Provided an option to select one address for the order.
 
-✅ Backend API Implementation
+
 Created an endpoint to fetch and send all saved addresses of the user.
 Ensured authentication and proper error handling.
 
@@ -463,6 +463,7 @@ This repository contains the code for Milestone 24. You can find all the relevan
 ## Submission  
 - Code has been pushed to the GitHub repository.  
 - The repository is publicly accessible.  
+
 - This README file summarizes the milestone.
 
 - # Milestone 25: Place Order Endpoint
@@ -485,6 +486,7 @@ For each product, generate a separate order while keeping the same address.
 
 Store Orders in MongoDB
 Save the order details using the existing Order Schema.
+
 
 
 ## Milestone 27: My Orders Page
@@ -510,6 +512,24 @@ _If deployed, include a link here (optional)._
 1. Login with a registered user account.
 2. Navigate to `My Orders` via the navbar.
 3. View your orders retrieved from the backend.
+=======
+# 📌 Milestone 26 - Backend Endpoint for Fetching Orders
+🚀 Project Overview
+In this milestone, we have implemented a backend API endpoint that retrieves all orders of a specific user based on their email.
+
+🎯 Learning Outcomes
+✅ Implement an API endpoint to fetch user orders
+✅ Retrieve the user ID from the database using their email
+✅ Fetch all orders associated with the user ID
+✅ Send the orders as a response in JSON format
+
+🛠 Tech Stack
+Backend: Node.js, Express.js, MongoDB (Mongoose)
+
+Database: MongoDB
+
+Version Control: Git & GitHub
+
 
 
 
