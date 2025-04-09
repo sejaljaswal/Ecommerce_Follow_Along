@@ -513,6 +513,62 @@ _If deployed, include a link here (optional)._
 
 
 
+## 📝 Milestone 28 – Cancel Order Feature
+✅ Goal:
+Enable users to cancel their orders from the My Orders page.
+
+🔧 Steps:
+Frontend:
+
+Show a "Cancel Order" button next to each order.
+
+Only display the button if the order is not already canceled.
+
+On click, send the orderId to the backend using a POST request.
+
+Backend:
+
+Create an endpoint to receive the orderId.
+
+Fetch the order using the ID.
+
+If the order exists and isn't already canceled, update its status to "canceled" and save.
+
+
+
+## 📝 Milestone 29 – Setup PayPal Integration (Step 1)
+✅ Goal:
+Prepare your project for integrating PayPal as an online payment method alongside Cash on Delivery (COD).
+
+🔧 Steps:
+Create PayPal Developer Account:
+
+Go to the PayPal Developer Dashboard.
+
+Log in and navigate to Sandbox Accounts.
+
+Sandbox Setup:
+
+Copy the User ID of your sandbox buyer account.
+
+Find your Client ID under Apps & Credentials and save it.
+
+Order Confirmation Page:
+
+Add two radio buttons for payment options:
+
+Cash on Delivery (COD)
+
+Online Payment (PayPal)
+
+When Online Payment is selected, display placeholder PayPal buttons (real functionality comes in the next milestone).
+
+
+
+
+
+
+
 
 
 
