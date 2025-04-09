@@ -383,7 +383,6 @@ Built an endpoint to fetch and send user data.
 Tested functionality to ensure proper data retrieval and display.
 
 
-
 # Milestone 21 - Address Form Page
 
 🚀 What was achieved in this milestone?
@@ -408,7 +407,6 @@ Created a new address form page in the frontend.
 Implemented form validation for required fields.
 Linked the form page to the profile page with a navigation button.
 Tested functionality to ensure smooth data entry.
-
 
 # Milestone 22 - Storing User Address in Database
 
@@ -438,6 +436,7 @@ Navigated to the "Select Address" page when clicked.
 Displayed all available addresses of the user.
 Provided an option to select one address for the order.
 
+
 Created an endpoint to fetch and send all saved addresses of the user.
 Ensured authentication and proper error handling.
 
@@ -464,7 +463,75 @@ This repository contains the code for Milestone 24. You can find all the relevan
 ## Submission  
 - Code has been pushed to the GitHub repository.  
 - The repository is publicly accessible.  
-- This README file summarizes the milestone.  
+
+- This README file summarizes the milestone.
+
+- # Milestone 25: Place Order Endpoint
+Overview
+In this milestone, we created a backend endpoint to handle the order placement process. This endpoint receives product details, user information, and address details to store the order in MongoDB.
+
+Learning Goals
+Create a backend endpoint for placing an order.
+Retrieve the user _id using their email.
+Store order details in the MongoDB orders collection.
+
+Implementation Steps
+Receive Order Data
+
+The endpoint accepts the user's email, product details, and address.
+Retrieve User ID
+Use the email to find the corresponding _id from the users collection.
+Create Orders
+For each product, generate a separate order while keeping the same address.
+
+Store Orders in MongoDB
+Save the order details using the existing Order Schema.
+
+
+
+## Milestone 27: My Orders Page
+
+### 🎯 What was achieved in this milestone:
+
+- Created a **My Orders** page in the frontend to display all user-specific orders.
+- Integrated with the backend using a **GET request** to the `/my-orders` endpoint.
+- Passed the **user's email** as a query parameter to fetch their orders.
+- Displayed order details including product name, price, and order date.
+- Enhanced user experience by adding **My Orders** to the **navigation bar** for easy access.
+- Successfully connected frontend and backend for order retrieval.
+
+### 📂 Files Modified:
+- `src/pages/MyOrders.jsx` — New page to display user orders.
+- `src/components/Navbar.jsx` — Added My Orders link to navigation.
+- `README.md` — Updated with milestone summary.
+
+### 🔗 Live Preview / Demo:
+_If deployed, include a link here (optional)._
+
+### 📌 How to Test:
+1. Login with a registered user account.
+2. Navigate to `My Orders` via the navbar.
+3. View your orders retrieved from the backend.
+=======
+# 📌 Milestone 26 - Backend Endpoint for Fetching Orders
+🚀 Project Overview
+In this milestone, we have implemented a backend API endpoint that retrieves all orders of a specific user based on their email.
+
+🎯 Learning Outcomes
+✅ Implement an API endpoint to fetch user orders
+✅ Retrieve the user ID from the database using their email
+✅ Fetch all orders associated with the user ID
+✅ Send the orders as a response in JSON format
+
+🛠 Tech Stack
+Backend: Node.js, Express.js, MongoDB (Mongoose)
+
+Database: MongoDB
+
+Version Control: Git & GitHub
+
+
+
 
 
 
