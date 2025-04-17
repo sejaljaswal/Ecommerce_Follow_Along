@@ -564,6 +564,48 @@ When Online Payment is selected, display placeholder PayPal buttons (real functi
 
 
 
+## 💳 Milestone 30 - Online Payment Integration using PayPal API
+📚 What was achieved in this milestone:
+In this milestone, we learned how to integrate online payment functionality using the PayPal API in a React application. This continued from Milestone 29, where we created a PayPal Sandbox account and retrieved the Client/User ID.
+
+✅ Key Accomplishments:
+Installed the @paypal/react-paypal-js npm package to simplify PayPal integration.
+
+Used the PayPalScriptProvider component to wrap our payment section and initialize PayPal with our sandbox client-id.
+
+Added a PayPal button to the frontend to allow users to complete payments via PayPal or card.
+
+Implemented a basic payment flow using sandbox mode, simulating how real-world online payments would function.
+
+🔧 Tools & Libraries:
+@paypal/react-paypal-js
+
+PayPal Developer Sandbox Environment
+
+
+
+
+## 🧩 Milestone 31 - Global State Management using Redux
+📚 What was achieved in this milestone:
+In this milestone, we learned how to implement Redux for global state management in a React application. The key focus was to store and manage the user's email globally across all components.
+
+✅ Key Accomplishments:
+Installed the react-redux npm package to enable Redux integration in the React app.
+
+Created a store folder with:
+
+store.js: Configured the Redux store and set up the userReducer to manage user email state.
+
+userActions.js: Defined the setEmail action creator to dispatch email updates to the global store.
+
+Used the Provider component from react-redux in index.js to wrap the main App component and connect the store.
+
+Setup global state to store the user’s email, which can later be accessed or updated from any component.
+
+
+
+ Milestone-29
+
 
 
 

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Ecommerce_Follow_Along
 
 
@@ -85,7 +85,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> ba0c703 (login page)
+ (login page)
 
 
 milestone 3
@@ -94,3 +94,5 @@ In this live session led by our mentor we did :
 *Setting up backend folders and files.
 *Configuring and connecting the server to MongoDB.
 *Writing basic error-handling code.
+
+//
