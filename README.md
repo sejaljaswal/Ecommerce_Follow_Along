@@ -563,7 +563,6 @@ Online Payment (PayPal)
 When Online Payment is selected, display placeholder PayPal buttons (real functionality comes in the next milestone).
 
 
-
 ## 💳 Milestone 30 - Online Payment Integration using PayPal API
 📚 What was achieved in this milestone:
 In this milestone, we learned how to integrate online payment functionality using the PayPal API in a React application. This continued from Milestone 29, where we created a PayPal Sandbox account and retrieved the Client/User ID.
@@ -602,9 +601,6 @@ Used the Provider component from react-redux in index.js to wrap the main App co
 
 Setup global state to store the user’s email, which can later be accessed or updated from any component.
 
-
-
- Milestone-29
 
 
 
