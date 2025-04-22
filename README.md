@@ -535,7 +535,6 @@ Fetch the order using the ID.
 If the order exists and isn't already canceled, update its status to "canceled" and save.
 
 
-
 ## 📝 Milestone 29 – Setup PayPal Integration (Step 1)
 ✅ Goal:
 Prepare your project for integrating PayPal as an online payment method alongside Cash on Delivery (COD).
@@ -619,6 +618,7 @@ This setup ensures that the mail information is available throughout the app and
 
 
 
+
 ## : 🔐 Milestone 33 – JWT Token Creation & Cookie Storage
 ✅ What was achieved:
 In this milestone, we explored how to create and manage JWT tokens for user authentication and store them securely in browser cookies. Here's what we accomplished:
@@ -648,7 +648,6 @@ Setting maxAge and handling token expiry
 Sending cookies in server responses
 
 This milestone sets the foundation for secure authentication in our app. 🚀
-
 
 
 
