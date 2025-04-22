@@ -602,6 +602,24 @@ Used the Provider component from react-redux in index.js to wrap the main App co
 Setup global state to store the user’s email, which can later be accessed or updated from any component.
 
 
+## 🧩 Milestone 32 – Global State Management using Redux
+✅ What was achieved:
+In this milestone, we integrated Redux into our application to manage global state effectively. Specifically, we:
+
+Implemented Redux to store the user's email (mail) globally.
+
+Used the dispatch method on the Login page to save the user's mail into the global state.
+
+Accessed the stored mail across all remaining pages using the useSelector hook.
+
+Ensured smooth state management without the need for prop drilling.
+
+This setup ensures that the mail information is available throughout the app and paves the way for efficient user session management and personalization in future milestones.
+
+
+
+
+
 
 
 
