@@ -619,9 +619,7 @@ This setup ensures that the mail information is available throughout the app and
 
 
 
-## :
-
-🔐 Milestone 33 – JWT Token Creation & Cookie Storage
+##🔐 Milestone 33 – JWT Token Creation & Cookie Storage
 ✅ What was achieved:
 In this milestone, we explored how to create and manage JWT tokens for user authentication and store them securely in browser cookies. Here's what we accomplished:
 
@@ -650,6 +648,67 @@ Setting maxAge and handling token expiry
 Sending cookies in server responses
 
 This milestone sets the foundation for secure authentication in our app. 🚀
+
+
+# Milestone 34 – JWT Validation from Cookie 🍪
+
+## 🎯 Goals
+
+- Extract JWT token from browser cookie.
+- Send token to the server.
+- Validate JWT on the backend using middleware.
+- Protect routes so only logged-in users can access them.
+
+## 🛠️ Steps
+
+1. Get the JWT from cookies on the client.
+2. Send the token to the server (e.g., via headers).
+3. Backend middleware checks token validity.
+4. Apply middleware to protected routes.
+
+## 📥 Submission
+
+- Push code to your public GitHub repo.
+- Update this README with your milestone summary.
+- Submit the repo link in the assignment.
+
+---
+
+Here's a short and clear README for **Milestone 35 – Project Deployment**:
+
+---
+
+# 🚀 Milestone 35 – Project Deployment
+
+Welcome, Kalvians! 🌟  
+In this final milestone, you’ll deploy both your frontend and backend to make your project live!
+
+---
+
+## 🎯 Learning Goals
+
+- Deploy the **frontend** of your project.
+- Deploy the **backend** of your project.
+- Connect frontend with the deployed backend.
+
+---
+
+## 📝 Steps
+
+1. Deploy your backend using any hosting service (e.g., Render, Railway, etc.).
+2. Replace all `localhost` URLs in your frontend with the **deployed backend link**.
+3. Deploy the frontend using a service like Vercel or Netlify.
+4. Ensure both frontend and backend are working together properly.
+
+---
+
+## 📥 Submission Guidelines
+
+- Push both frontend and backend code to your GitHub repository.
+- Make sure the repository is public.
+- Share the **deployment links** for both frontend and backend.
+- Submit the GitHub and deployment links in the assignment section.
+
 
 
 
