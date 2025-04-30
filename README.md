@@ -464,6 +464,9 @@ This repository contains the code for Milestone 24. You can find all the relevan
 - Code has been pushed to the GitHub repository.  
 - The repository is publicly accessible.  
 
+  
+  
+  
 - This README file summarizes the milestone.
 
 - # Milestone 25: Place Order Endpoint
@@ -486,7 +489,6 @@ For each product, generate a separate order while keeping the same address.
 
 Store Orders in MongoDB
 Save the order details using the existing Order Schema.
-
 
 
 ## Milestone 27: My Orders Page
@@ -512,6 +514,141 @@ _If deployed, include a link here (optional)._
 1. Login with a registered user account.
 2. Navigate to `My Orders` via the navbar.
 3. View your orders retrieved from the backend.
+
+
+
+
+## 📝 Milestone 28 – Cancel Order Feature
+✅ Goal:
+Enable users to cancel their orders from the My Orders page.
+
+🔧 Steps:
+Frontend:
+
+Show a "Cancel Order" button next to each order.
+
+Only display the button if the order is not already canceled.
+
+On click, send the orderId to the backend using a POST request.
+
+Backend:
+
+Create an endpoint to receive the orderId.
+
+Fetch the order using the ID.
+
+If the order exists and isn't already canceled, update its status to "canceled" and save.
+
+
+## 📝 Milestone 29 – Setup PayPal Integration (Step 1)
+✅ Goal:
+Prepare your project for integrating PayPal as an online payment method alongside Cash on Delivery (COD).
+
+🔧 Steps:
+Create PayPal Developer Account:
+
+Go to the PayPal Developer Dashboard.
+
+Log in and navigate to Sandbox Accounts.
+
+Sandbox Setup:
+
+Copy the User ID of your sandbox buyer account.
+
+Find your Client ID under Apps & Credentials and save it.
+
+Order Confirmation Page:
+
+Add two radio buttons for payment options:
+
+Cash on Delivery (COD)
+
+Online Payment (PayPal)
+
+When Online Payment is selected, display placeholder PayPal buttons (real functionality comes in the next milestone).
+
+
+## 💳 Milestone 30 - Online Payment Integration using PayPal API
+📚 What was achieved in this milestone:
+In this milestone, we learned how to integrate online payment functionality using the PayPal API in a React application. This continued from Milestone 29, where we created a PayPal Sandbox account and retrieved the Client/User ID.
+
+✅ Key Accomplishments:
+Installed the @paypal/react-paypal-js npm package to simplify PayPal integration.
+
+Used the PayPalScriptProvider component to wrap our payment section and initialize PayPal with our sandbox client-id.
+
+Added a PayPal button to the frontend to allow users to complete payments via PayPal or card.
+
+Implemented a basic payment flow using sandbox mode, simulating how real-world online payments would function.
+
+🔧 Tools & Libraries:
+@paypal/react-paypal-js
+
+PayPal Developer Sandbox Environment
+
+
+
+
+## 🧩 Milestone 31 - Global State Management using Redux
+📚 What was achieved in this milestone:
+In this milestone, we learned how to implement Redux for global state management in a React application. The key focus was to store and manage the user's email globally across all components.
+
+✅ Key Accomplishments:
+Installed the react-redux npm package to enable Redux integration in the React app.
+
+Created a store folder with:
+
+store.js: Configured the Redux store and set up the userReducer to manage user email state.
+
+userActions.js: Defined the setEmail action creator to dispatch email updates to the global store.
+
+Used the Provider component from react-redux in index.js to wrap the main App component and connect the store.
+
+Setup global state to store the user’s email, which can later be accessed or updated from any component.
+
+
+## 🧩 Milestone 32 – Global State Management using Redux
+✅ What was achieved:
+In this milestone, we integrated Redux into our application to manage global state effectively. Specifically, we:
+
+Implemented Redux to store the user's email (mail) globally.
+
+Used the dispatch method on the Login page to save the user's mail into the global state.
+
+Accessed the stored mail across all remaining pages using the useSelector hook.
+
+Ensured smooth state management without the need for prop drilling.
+
+This setup ensures that the mail information is available throughout the app and paves the way for efficient user session management and personalization in future milestones.
+
+
+
+✅ What was achieved:
+In this milestone, we explored how to create and manage JWT tokens for user authentication and store them securely in browser cookies. Here's what we accomplished:
+
+Installed the jsonwebtoken package using NPM.
+
+Used the sign method from jsonwebtoken to create a JWT using the user's email and ID.
+
+Set the token to expire after a specific duration using the maxAge option.
+
+Stored the generated token inside a cookie using the response object so that it gets saved in the user's browser.
+
+📁 Key Code Changes:
+Added JWT token creation logic on the login or authentication endpoint.
+
+Used res.cookie() to store the token on the client side.
+
+Ensured token is securely stored and configured with proper expiration time.
+
+🔍 Concepts Practiced:
+JWT creation using jsonwebtoken.sign()
+
+Managing user sessions securely using cookies
+
+Setting maxAge and handling token expiry
+
+Sending cookies in server responses
 =======
 # 📌 Milestone 26 - Backend Endpoint for Fetching Orders
 🚀 Project Overview
@@ -531,11 +668,27 @@ Database: MongoDB
 Version Control: Git & GitHub
 
 
+This milestone sets the foundation for secure authentication in our app. 🚀
 
+# Milestone 34 – JWT Validation from Cookie 🍪
 
+## 🎯 Goals
 
+- Extract JWT token from browser cookie.
+- Send token to the server.
+- Validate JWT on the backend using middleware.
+- Protect routes so only logged-in users can access them.
 
+## 🛠️ Steps
 
+1. Get the JWT from cookies on the client.
+2. Send the token to the server (e.g., via headers).
+3. Backend middleware checks token validity.
+4. Apply middleware to protected routes.
 
+## 📥 Submission
 
+- Push code to your public GitHub repo.
+- Update this README with your milestone summary.
+- Submit the repo link in the assignment.
 
