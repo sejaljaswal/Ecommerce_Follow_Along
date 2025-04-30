@@ -623,10 +623,33 @@ This setup ensures that the mail information is available throughout the app and
 
 
 
+✅ What was achieved:
+In this milestone, we explored how to create and manage JWT tokens for user authentication and store them securely in browser cookies. Here's what we accomplished:
 
+Installed the jsonwebtoken package using NPM.
 
+Used the sign method from jsonwebtoken to create a JWT using the user's email and ID.
 
+Set the token to expire after a specific duration using the maxAge option.
 
+Stored the generated token inside a cookie using the response object so that it gets saved in the user's browser.
+
+📁 Key Code Changes:
+Added JWT token creation logic on the login or authentication endpoint.
+
+Used res.cookie() to store the token on the client side.
+
+Ensured token is securely stored and configured with proper expiration time.
+
+🔍 Concepts Practiced:
+JWT creation using jsonwebtoken.sign()
+
+Managing user sessions securely using cookies
+
+Setting maxAge and handling token expiry
+
+Sending cookies in server responses
+=======
 # 📌 Milestone 26 - Backend Endpoint for Fetching Orders
 🚀 Project Overview
 In this milestone, we have implemented a backend API endpoint that retrieves all orders of a specific user based on their email.
@@ -645,12 +668,27 @@ Database: MongoDB
 Version Control: Git & GitHub
 
 
+This milestone sets the foundation for secure authentication in our app. 🚀
 
+# Milestone 34 – JWT Validation from Cookie 🍪
 
+## 🎯 Goals
 
+- Extract JWT token from browser cookie.
+- Send token to the server.
+- Validate JWT on the backend using middleware.
+- Protect routes so only logged-in users can access them.
 
+## 🛠️ Steps
 
+1. Get the JWT from cookies on the client.
+2. Send the token to the server (e.g., via headers).
+3. Backend middleware checks token validity.
+4. Apply middleware to protected routes.
 
+## 📥 Submission
 
-
+- Push code to your public GitHub repo.
+- Update this README with your milestone summary.
+- Submit the repo link in the assignment.
 
